@@ -1,8 +1,7 @@
-import bgHero from '../assets/heroBg.png'
 import { Shield, Truck, CreditCard } from 'lucide-react';
 
 const Hero = () => {
-  return (
+  return ( 
     <section className="bg-black min-h-80 text-white flex flex-col justify-center items-center px-4">
         <div className='flex flex-col gap-3 mt-4'>
             <span className="inline-flex items-center rounded-full border border-green-500/30 bg-green-900/10 px-3 py-2 text-xs font-medium text-green-400 w-50">

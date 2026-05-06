@@ -14,7 +14,11 @@ const Header = () => {
         
         <nav  className="max-w-6xl mx-auto px-4 flex items-center justify-between" >
             <a href="./index.html">
-                <img src="/logo.png" alt="Logo loja Imports" className="w-30 h-30" />
+                <img 
+                    src={`${import.meta.env.BASE_URL}logo.png`} 
+                    alt="Logo loja Imports" 
+                    className="w-30 h-30" 
+                />
             </a>
 
             <ul className="hidden md:flex gap-8 bg-black text-white absolute top-full left-0 w-full z-50" >
