@@ -1,4 +1,5 @@
 import { FaWhatsapp } from "react-icons/fa"
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
 
@@ -23,10 +24,10 @@ const ProductCard = ({ product }) => {
 
 
             <button className="bg-green-700 w-80 py-2 rounded-lg mt-8">
-                <a className="flex flex-row justify-center gap-4 font-bold" href={linkWhatsapp} target="_blank">
+                <Link className="flex flex-row justify-center gap-4 font-bold" to={linkWhatsapp} target="_blank">
                     Comprar
                      <FaWhatsapp className="text-2xl" />
-                </a>
+                </Link>
             </button>
 
         </div>

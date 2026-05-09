@@ -1,4 +1,5 @@
-import { Shield, Truck, CreditCard } from 'lucide-react';
+import { Shield, Truck, CreditCard, ShoppingBag, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return ( 
@@ -12,8 +13,14 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col mt-8 gap-2 pb-5' > 
-            <button className='bg-green-700 w-80 py-2 rounded-lg'>Ver Catálogo</button>
-            <button className='bg-green-700 w-80 py-2 rounded-lg'>Conheça a Solution</button>
+            <Link className='bg-green-700 w-80 py-2 rounded-lg font-bold flex flex-row gap-4 justify-center' to="/CatalogoIphones">
+            Ver Catálogo
+            <ShoppingBag className="w-6 h-6" />
+            </Link>
+            <Link className='bg-green-700 w-80 py-2 rounded-lg text-center font-bold flex flex-row gap-4 justify-center' to="/AboutSolution">
+            Conheça a Solution
+            <ArrowRight className="w-6 h-6" />
+            </Link>
         </div>
 
         <div className='flex items-center justify-center gap-4 pb-4'>
