@@ -13,8 +13,8 @@ const Header = () => {
 
     <header  className="bg-black text-white h-25 border-b border-gray-700 relative z-50" >
         
-        <nav  className="max-w-6xl mx-auto px-4 flex items-center justify-between" >
-            <Link to="/">
+        <nav  className="max-w-6xl sm:px-4 flex flex-row items-center justify-between" >
+            <Link to="/" className="lg:ml-50">
                 <img 
                     src={`${import.meta.env.BASE_URL}logo.png`} 
                     alt="Logo loja Imports" 
@@ -22,14 +22,14 @@ const Header = () => {
                 />
             </Link>
 
-            <ul className="hidden md:flex gap-8 bg-black text-white absolute top-full left-0 w-full z-50" >
+            <ul className="hidden md:flex  items-center gap-8 text-white" >
                 <li><Link to="/">Início</Link></li>
                 <li><Link to="/CatalogoIphones">Produtos</Link></li>
-                <li><Link to="#">Sobre</Link></li>
-                <li><Link to="#">Contato</Link></li>
+                <li><Link to="/AboutSolution">Sobre</Link></li>
+                <li><Link to="/">Contato</Link></li>
             </ul>
 
-            <button className="md:hidden text-3xl mb-5" onClick={() => setMenuAberto(!menuAberto)}>
+            <button className="md:hidden text-3xl mb-5 mr-4" onClick={() => setMenuAberto(!menuAberto)}>
                 ☰
             </button>
 
@@ -46,10 +46,10 @@ const Header = () => {
                 ✕
                 </button>
 
-                <Link to="/">Início</Link>
-                <Link to="/CatalogoIphones">Catálogo</Link>
-                <Link to="/AboutSolution">Sobre</Link>
-                <Link to="/">Contato</Link>
+                <Link to="/" onClick={() => setMenuAberto(false)}>Início</Link>
+                <Link to="/CatalogoIphones" onClick={() => setMenuAberto(false)}>Catálogo</Link>
+                <Link to="/AboutSolution" onClick={() => setMenuAberto(false)}>Sobre</Link>
+                <Link to="/" onClick={() => setMenuAberto(false)}>Contato</Link>
 
             </div>  
 

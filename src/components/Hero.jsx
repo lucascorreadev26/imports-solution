@@ -36,7 +36,7 @@ const Hero = () => {
 
             <p className='flex items-center justify-center gap-2 text-gray-400 text-[12px] leading-tight'>
                 <CreditCard className="w-4 h-4" />
-                12x sem juros
+                Parcelamos em até 18x
             </p>
         </div>
     </section>

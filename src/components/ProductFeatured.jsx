@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 const ProductFeatured = () => {
 return (
-    <section className='bg-black text-white border-none mt-12' >
+    <section className='bg-black text-white border-none mt-12 flex flex-col justify-center items-center' >
 
         <h2 className='text-2xl font-bold text-center pt-6 pb-2 '>
           Aparelhos em Destaque
@@ -17,7 +17,7 @@ return (
         Catálogo Completo <ArrowRight className="w-6 h-6" />
         </Link>
 
-        <div className="mt-8">
+        <div className="mt-8 lg:flex flex-row gap-12">
             {products.slice(0, 3).map((product) => (
                 <ProductCard key={product.id} product={product} />
             ))}
