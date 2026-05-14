@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className=' bg-neutral-900 flex flex-col justify-center items-center text-center pt-8 pb-16' > 
 
-        <h2  className="text-2xl font-bold mt-4 tracking-wide text-white mt-12" >Por que escolher a Imports Solution?</h2>
+        <h2  className="text-2xl font-bold mt-4 tracking-wide text-white" >Por que escolher a Imports Solution?</h2>
         
         <div className='w-80 flex flex-col gap-4'>
 

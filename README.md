@@ -12,7 +12,7 @@ Catálogo digital de iPhones com integração direta via WhatsApp.
 
 ---
 
-# 📦 Sobre o projeto
+# Sobre o projeto
 
 Projeto desenvolvido para apresentar um catálogo digital de iPhones, permitindo que clientes visualizem os modelos disponíveis de forma simples, organizada e responsiva.
 
@@ -22,7 +22,7 @@ Este projeto foi criado como um MVP, com o objetivo de digitalizar o catálogo d
 
 ---
 
-# ✅ Funcionalidades
+# Funcionalidades
 
 - Listagem de produtos
 - Filtro por modelo de iPhone
@@ -45,7 +45,7 @@ Este projeto foi criado como um MVP, com o objetivo de digitalizar o catálogo d
 
 ---
 
-# 📸 Preview do Projeto
+# Preview do Projeto
 
 ## Página Inicial
 
@@ -63,17 +63,19 @@ Este projeto foi criado como um MVP, com o objetivo de digitalizar o catálogo d
 
 ---
 
-# 📱 Responsividade
+# Responsividade
 
 <p align="center">
   <img src="./screenshots/homeMobile.png" width="220"/>
+
   <img src="./screenshots/aboutMobile.png" width="220"/>
+  
   <img src="./screenshots/cardCatalogoMobile.png" width="220"/>
 </p>
 
 ---
 
-# 🎯 Objetivo do projeto
+# Objetivo do projeto
 
 O objetivo principal é substituir o catálogo manual da loja, oferecendo uma experiência mais prática para o cliente visualizar os produtos disponíveis.
 
@@ -81,7 +83,7 @@ O projeto também busca facilitar o atendimento e aumentar a presença digital d
 
 ---
 
-# 🚀 Melhorias futuras
+# Melhorias futuras
 
 
 - Busca por nome
@@ -93,9 +95,9 @@ O projeto também busca facilitar o atendimento e aumentar a presença digital d
 
 ---
 
-# 📌 Status do projeto
+# Status do projeto
 
-🚧 Projeto em desenvolvimento (MVP)
+Projeto em desenvolvimento (MVP)
 
 Novas funcionalidades estão sendo adicionadas progressivamente.
 
