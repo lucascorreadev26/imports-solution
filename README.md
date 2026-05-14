@@ -67,11 +67,11 @@ Link do projeto: https://lucascorreadev26.github.io/imports-solution/
 # Responsividade
 
 <p align="center">
-  <img src="./screenshots/homeMobile.png" width="220"/>
+  <img src="./screenshots/homeMobile.png" width="220" hspace="10"/>
 
-  <img src="./screenshots/aboutMobile.png" width="220"/>
+  <img src="./screenshots/aboutMobile.png" width="220" hspace="10"/>
   
-  <img src="./screenshots/cardCatalogoMobile.png" width="220"/>
+  <img src="./screenshots/cardCatalogoMobile.png" width="220" hspace="10"/>
 </p>
 
 ---
