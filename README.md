@@ -20,6 +20,7 @@ A Imports Solution é uma loja especializada em smartphones e produtos apple.
 
 Este projeto foi criado como um MVP, com o objetivo de digitalizar o catálogo da loja e facilitar o atendimento ao cliente através de uma experiência moderna e intuitiva.
 
+Link do projeto: https://lucascorreadev26.github.io/imports-solution/
 ---
 
 # Funcionalidades
