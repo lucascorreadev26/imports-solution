@@ -37,8 +37,8 @@ const ProductCard = ({ product }) => {
                 />
               ))}
             </div>
-
-            <h3 className="font-bold text-2xl mt-2">{selectedColor.price}</h3>
+            <p className="text-gray-400 text-xs mt-2">Dinheiro ou Pix</p>
+            <h3 className="font-bold text-2xl ">{selectedColor.price}</h3>
             <p className="text-gray-400 text-xs">{selectedColor.priceInstallment}</p>
           </div>
         </div>

@@ -19,6 +19,14 @@ const ProductList = () => {
       );
     }
 
+    if (filtro === 'acessorios') {
+      return (
+        nome.includes('airpods') ||
+        nome.includes('apple pencil') ||
+        nome.includes('localizador airtag')
+      );
+    }
+
     return nome.includes(filtro);
   });
 
@@ -54,6 +62,9 @@ const ProductList = () => {
           <option value="iphone 13 a 11 pro max">
             iPhones 13 a 11 Pro Max
           </option>
+          <option value="ipad">iPads</option>
+          <option value="macbook">Macbooks</option>
+          <option value="acessorios">Acessorios</option>
         </select>
       </div>
 
