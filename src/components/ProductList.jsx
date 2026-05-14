@@ -34,7 +34,7 @@ const ProductList = () => {
     <section className='bg-black text-white border-none mt-12'>
 
       <Link 
-        className="bg-green-700 w-80 py-2 rounded-lg font-bold px-4 ml-6" 
+        className="bg-green-700 w-80 py-2 rounded-lg font-bold px-4 ml-6 lg:hidden" 
         to="/"
       >
         Voltar ao início
@@ -68,7 +68,7 @@ const ProductList = () => {
         </select>
       </div>
 
-      <div>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
         {produtosFiltrados.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}

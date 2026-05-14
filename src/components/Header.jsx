@@ -22,7 +22,7 @@ const Header = () => {
                 />
             </Link>
 
-            <ul className="hidden md:flex  items-center gap-8 text-white" >
+            <ul className="hidden md:flex  items-center gap-8 text-white lg:gap-20" >
                 <li><Link to="/">Início</Link></li>
                 <li><Link to="/CatalogoIphones">Produtos</Link></li>
                 <li><Link to="/AboutSolution">Sobre</Link></li>
