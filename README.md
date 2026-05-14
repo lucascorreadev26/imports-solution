@@ -1,16 +1,47 @@
-# React + Vite
+# Imports Solution - Catálogo de iPhones
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para apresentar um catálogo digital de iPhones, permitindo que clientes visualizem os modelos disponíveis de forma simples, organizada e responsiva.
 
-Currently, two official plugins are available:
+## Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A Imports Solution é uma loja especializada em smartphones e produtos apple.  
+Este projeto foi criado como um MVP, com o objetivo de digitalizar o catálogo de produtos e facilitar o atendimento ao cliente.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listagem de produtos (Catálogo)
+- Filtro resumido por cada tipo de produto
+- Cards com imagem, nome, descrição e preço
+- Intragração com Whatsapp
+- Organização dos iPhones por modelo
+- Interface responsiva
+- Design simples e moderno
+- Estrutura preparada para futuras melhorias
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (com Vite)
+- JavaScript
+- CSS / Tailwind CSS
+- Git e GitHub
+
+## Objetivo do projeto
+
+O objetivo principal é substituir o catálogo manual da loja, oferecendo uma experiência mais prática para o cliente visualizar os produtos disponíveis.
+
+## Melhorias futuras
+
+- Filtro / Busca por nome
+- Página individual do produto
+- Painel administrativo
+- Cadastro de produtos
+- Controle financeiro
+- Dashboard com métricas
+
+## Status do projeto
+
+🚧 Projeto em desenvolvimento / MVP
+
+## Autor
+
+Desenvolvido por Lucas Correa.
