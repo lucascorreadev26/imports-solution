@@ -770,9 +770,39 @@ export const products = [
             },      
         ],
     },
+        {
+        id: 29,
+        name: "Iphone 14 Pro Max 128GB",
+        description: "Semi-novo | Garantia: 6 meses",
+
+        colors: [     
+
+            {
+                name: "Black",
+                color: "#18181B",
+                image: iphone16ProMaxBlack,
+                price: "R$ 3.799,99",
+                priceInstallment: "Ou em 12x R$ 400,83",
+            },   
+            {
+                name: "Silver",
+                color: "#C0C0C0",
+                image: iphone16ProMaxSilver,
+                price: "R$ 3.799,99",
+                priceInstallment: "Ou em 12x R$ 400,83",
+            },
+            {
+                name: "Gold",
+                color: "#C084FC",
+                image: iphone16ProMaxGold,
+                price: "R$ 3.799,99",
+                priceInstallment: "Ou em 12x R$ 400,83",
+            },      
+        ],
+    },
 
     {
-        id: 29,
+        id: 30,
         name: "Iphone 14 Pro 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -809,7 +839,7 @@ export const products = [
     },
 
     {
-        id: 30,
+        id: 31,
         name: "Iphone 14 Pro 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -845,7 +875,7 @@ export const products = [
     },
 
     {
-        id: 31,
+        id: 32,
         name: "Iphone 14 Plus 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -881,7 +911,7 @@ export const products = [
     },
 
     {
-        id: 32,
+        id: 33,
         name: "Iphone 14 Plus 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -911,7 +941,7 @@ export const products = [
     },
 
     {
-        id: 33,
+        id: 34,
         name: "Iphone 14 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -947,7 +977,7 @@ export const products = [
     },
 
     {
-        id: 34,
+        id: 35,
         name: "Iphone 13 Pro Max 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -970,7 +1000,7 @@ export const products = [
     },
 
     {
-        id: 35,
+        id: 36,
         name: "Iphone 13 Pro Max 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1004,7 +1034,7 @@ export const products = [
     },
 
     {
-        id: 36,
+        id: 37,
         name: "Iphone 13 Pro 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1032,7 +1062,7 @@ export const products = [
     },
 
     {
-        id: 37,
+        id: 38,
         name: "Iphone 13 Pro 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1069,7 +1099,7 @@ export const products = [
     },
 
     {
-        id: 38,
+        id: 39,
         name: "Iphone 13 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1099,7 +1129,7 @@ export const products = [
     },
 
     {
-        id: 39,
+        id: 40,
         name: "Iphone 13 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1129,7 +1159,7 @@ export const products = [
     },
 
     {
-        id: 40,
+        id: 41,
         name: "Iphone 12 Pro Max 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1152,7 +1182,7 @@ export const products = [
     },
 
     {
-        id: 41,
+        id: 42,
         name: "Iphone 12 Pro Max 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1183,7 +1213,7 @@ export const products = [
 
 
     {
-        id: 42,
+        id: 43,
         name: "Iphone 12 Pro 512GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1200,7 +1230,7 @@ export const products = [
 
 
     {
-        id: 43,
+        id: 44,
         name: "Iphone 12 Pro 256GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1224,7 +1254,7 @@ export const products = [
 
 
     {
-        id: 44,
+        id: 45,
         name: "Iphone 12 Pro 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
@@ -1254,7 +1284,7 @@ export const products = [
     },
 
     {
-        id: 45,
+        id: 46,
         name: "Iphone 12 128GB",
         description: "Semi-novo | Garantia: 6 meses",
 
