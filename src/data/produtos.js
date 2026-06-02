@@ -792,8 +792,8 @@ export const products = [
                 priceInstallment: "Ou em 12x R$ 400,83",
             },
             {
-                name: "Gold",
-                color: "#C084FC",
+                name: "Desert",
+                color: "#D6B08C",
                 image: iphone16ProMaxGold,
                 price: "R$ 3.799,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
@@ -962,7 +962,7 @@ export const products = [
             },  
             {
                 name: "Blue",
-                color: "#D6B08C",
+                color: "#1E3A8A",
                 image: iphone15Blue,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,54",
