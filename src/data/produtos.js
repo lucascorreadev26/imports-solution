@@ -34,7 +34,7 @@ import iphone15Pink from '../assets/iphone15Pink.png'
 import iphone15Black from '../assets/iphone15Black.png'
 
 // Imports Photo Iphone 14
-import iphone14PlusPurple from '../assets/iphone14PlusPurple.png';
+import iphone14PlusPurple from '../assets/iphone14PlusPurplee.png';
 
 // Imports Photo iPhone 13 Pro Max Colors
 import iphone13ProMaxSilver from '../assets/iphone13ProMaxSilver.png'
