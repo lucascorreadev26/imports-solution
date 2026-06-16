@@ -33,6 +33,9 @@ import iphone15Blue from '../assets/iphone15Blue.png'
 import iphone15Pink from '../assets/iphone15Pink.png'
 import iphone15Black from '../assets/iphone15Black.png'
 
+// Imports Photo Iphone 14
+import iphone14PlusPurple from '../assets/iphone14PlusPurple.png';
+
 // Imports Photo iPhone 13 Pro Max Colors
 import iphone13ProMaxSilver from '../assets/iphone13ProMaxSilver.png'
 import iphone13ProMaxBlack from '../assets/iphone13ProMaxBlack.png'
@@ -890,7 +893,7 @@ export const products = [
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone15Pink,
+                image: iphone14PlusPurple,
                 price: "R$ 2.799,99",
                 priceInstallment: "Ou em 12x R$ 280,58",
             },  
