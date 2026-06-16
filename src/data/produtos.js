@@ -922,7 +922,7 @@ export const products = [
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone16Pink,
+                image: iphone14PlusPurple,
                 price: "R$ 2.949,99",
                 priceInstallment: "Ou em 12x R$ 295,62",
             },  
@@ -959,7 +959,7 @@ export const products = [
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone16Pink,
+                image: iphone14PlusPurple,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,54",
             },  
