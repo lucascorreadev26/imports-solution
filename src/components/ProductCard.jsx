@@ -14,10 +14,13 @@ const ProductCard = ({ product }) => {
   return (
     <section className="flex items-center justify-center mb-12">
       <div className="flex flex-col items-center w-80 rounded-3xl pb-4 border border-zinc-700/50 bg-zinc-900/60 backdrop-blur-md shadow-[0_10px_40px_rgba(0,0,0,0.45)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(34,197,94,0.25)]">
-        <div>
-          <img src={selectedColor.image} alt={product.name} />
+        <div className="flex flex-col items-center">
           
-          <div className="pl-6">
+         <div className="flex justify-center items-center w-80 h-80">
+           <img src={selectedColor.image} alt={product.name} className="w-full h-auto"/>
+         </div>
+          
+          <div className="w-75 flex flex-col pl-3 pr-3">
             <h2 className="text-xl font-medium tracking-wide">{product.name}</h2>
             <p className="text-gray-400 text-xs mt-1">{product.description}</p>
 

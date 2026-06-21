@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { HiOutlineShoppingBag } from "react-icons/hi2";
 
 
 //import imagens
@@ -11,23 +12,42 @@ const Header = () => {
 
     return (
 
-    <header  className="bg-black text-white h-25 border-b border-gray-700 relative z-50" >
+    <header className="bg-black text-white border-b border-gray-700 relative z-50">
         
-        <nav  className="max-w-6xl sm:px-4 flex flex-row items-center justify-between" >
-            <Link to="/" className="lg:ml-50">
-                <img 
-                    src={`${import.meta.env.BASE_URL}logo.png`} 
-                    alt="Logo loja Imports" 
-                    className="w-30 h-30" 
-                />
-            </Link>
+        <nav className="max-w-screen-2xl mx-auto px-6 h-30 flex items-center">
+            <div className="flex-1">
+                <Link to="/" className="flex items-center">
+                    <img
+                        src={`${import.meta.env.BASE_URL}logo.webp`}
+                        alt="Logo Loja Imports Solution"
+                        className="h-30 w-30 mt-4"
+                    />
 
-            <ul className="hidden md:flex  items-center gap-8 text-white lg:gap-20" >
-                <li><Link to="/">Início</Link></li>
-                <li><Link to="/CatalogoIphones">Produtos</Link></li>
-                <li><Link to="/AboutSolution">Sobre</Link></li>
-                <li><Link to="/">Contato</Link></li>
+                    <p className="title-logo hidden lg:block whitespace-nowrap">Imports Solution</p>
+                </Link>
+            </div>
+
+            <ul className="hidden md:flex flex-1 justify-center items-center gap-10 text-white ml-16 md:ml-0">
+                <li className="whitespace-nowrap"><Link to="/">Início</Link></li>
+                <li className="whitespace-nowrap"><Link to="/CatalogoIphones">Produtos</Link></li>
+                <li className="whitespace-nowrap"><Link to="/AboutSolution">Sobre Nós</Link></li>
+                <li className="whitespace-nowrap"><Link to="/AboutSolution">Nossa Loja</Link></li>
+                <li className="whitespace-nowrap"><Link to="/">Dúvidas</Link></li>
+                <li className="whitespace-nowrap"><Link to="/">Contato</Link></li>
             </ul>
+
+            <div className="hidden md:flex flex-1 justify-end">
+                <button className="relative text-2xl hover:text-green-400 transition">
+                    <Link to="/CatalogoIphones" >
+                        <HiOutlineShoppingBag />
+                    </Link>
+
+                    {/* Quantidade */}
+                    <span className="absolute -top-2 -right-2 bg-green-500 text-black text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                     1
+                    </span>
+                </button>
+            </div>
 
             <button className="md:hidden text-3xl mb-5 mr-4" onClick={() => setMenuAberto(!menuAberto)}>
                 ☰

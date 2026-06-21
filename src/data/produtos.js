@@ -1,87 +1,4 @@
-// Imports Photos iPhone 17 Pro Max Colors
-import iphone17ProMaxSilver from '../assets/iphone17ProMaxSilver.png';
-import iphone17ProMaxBlue from '../assets/iphone17ProMaxBlue.png'
-import iphone17ProMaxOrange from '../assets/iphone17ProMaxOrange.png';
-
-// Imports Photos iPhones 17 Pro Colors
-import iphone17ProSilver from '../assets/iphone17ProSilver.png'
-import iphone17ProBlue from '../assets/iphone17ProBlue.png'
-import iphone17ProOrange from '../assets/iphone17ProOrange.png'
-
-// Imports Photos iPhones 17 Colors
-import iphone17Silver from '../assets/iphone17Silver.png'
-import iphone17Black from '../assets/iphone17Black.png'
-import iphone17Blue from '../assets/iphone17Blue.png'
-import iphone17Purple from '../assets/iphone17Purple.png'
-
-// Import Photo iPhone 17 Air 
-import iphone17AirBlack from '../assets/iphone17AirBlack.png'
-
-// Imports Photo iPhone 17e 
-import iphone17eSilver from '../assets/iphone17eSilver.png'
-import iphone17eBlack from '../assets/iphone17eBlack.png'
-import iphone17ePink from '../assets/iphone17ePink.png'
-
-// Imports Photo iPhone 16 Pro 
-import iphone16ProDesert from '../assets/iphone16ProDesert.png'
-
-// Imports Photo iPhone 16
-import iphone16Pink from '../assets/iphone16Pink.png'
-
-// Imports Photo iPhone 15
-import iphone15Blue from '../assets/iphone15Blue.png'
-import iphone15Pink from '../assets/iphone15Pink.png'
-import iphone15Black from '../assets/iphone15Black.png'
-
-// Imports Photo Iphone 14
-import iphone14PlusPurple from '../assets/iphone14PlusPurple.png';
-
-// Imports Photo iPhone 13 Pro Max Colors
-import iphone13ProMaxSilver from '../assets/iphone13ProMaxSilver.png'
-import iphone13ProMaxBlack from '../assets/iphone13ProMaxBlack.png'
-import iphone13ProMaxOuro from '../assets/iphone13ProMaxOuro.png'
-import iphone13ProMaxBlue from '../assets/iphone13ProMaxBlue.png'
-
-// Imports Photo iPhone 13 Colors
-import iphone13Silver from '../assets/iphone13Silver.png'
-import iphone13Black from '../assets/iphone13Black.png'
-
-// Imports Photo Ipad 11 Colors 
-import ipad11Silver from '../assets/ipad11Silver.png'
-import ipad11Blue from '../assets/ipad11Blue.png'
-import ipad11Pink from '../assets/ipad11Pink.png'
-
-// Imports Photo Macbook Air M4 
-import macbookM4Blue from '../assets/macBlue1.png'
-
-// Imports Photo Airpods Pro 3
-import AirpodsPro3 from '../assets/airpodsPro3.png'
-
-// Imports Photo Apple Pincel
-import pincelPro from '../assets/applePincel.png'
-
-// Imports Photo Air Tag Pack c/ 4
-import airTagPack4 from '../assets/airTagPack4.png'
-
-// Imports Photo 16 Pro Max 
-import iphone16ProMaxBlack from '../assets/iphone16ProMaxBlack.png'
-import iphone16ProMaxSilver from '../assets/iphone16ProMaxSilver.png'
-import iphone16ProMaxBlue from '../assets/iphone16ProMaxBlue.png'
-import iphone16ProMaxPurple from '../assets/iphone16ProMaxPurple.png'
-import iphone16ProMaxGold from '../assets/iphone16ProMaxGold.png'
-
-//Imports Photo 12 Pro Max
-import iphone12ProMaxBlack from '../assets/iphone12ProMaxBlack.png'
-import iphone12ProMaxSilver from '../assets/iphone12ProMaxSilver.png'
-import iphone12ProMaxGold from '../assets/iphone12ProMaxGold.png'
-import iphone12ProMaxBlue from '../assets/iphone12ProMaxBlue.png'
-
-//Imports Photo 12
-import iphone12Black from '../assets/iphone12Black.png'
-import iphone12Silver from '../assets/iphone12Silver.png'
-import iphone12Purple from '../assets/iphone12Purple.png'
-import iphone12Blue from '../assets/iphone12Blue.png'
-
+import { productImages } from './produtosImagens';
 
 
 // Produtos
@@ -95,21 +12,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17ProMaxSilver,
+                image: productImages.iphone17ProMaxSilver,
                 price: "R$ 10.299,99",
                 priceInstallment: "Ou em 12x R$ 1.032,15",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone17ProMaxBlue,
+                image: productImages.iphone17ProMaxBlue,
                 price: "R$ 10.299,99",
                 priceInstallment: "Ou em 12x R$ 1.032,15",
             },
             {
                 name: "Orange",
                 color: "#EA580C",
-                image: iphone17ProMaxOrange,
+                image: productImages.iphone17ProMaxOrange,
                 price: "R$ 10.149,99",
                 priceInstallment: "Ou em 12x R$ 1.017,12",
             },
@@ -126,21 +43,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17ProMaxSilver,
+                image: productImages.iphone17ProMaxSilver,
                 price: "R$ 9.549,99",
                 priceInstallment: "Ou em 12x R$ 956,99",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone17ProMaxBlue,
+                image: productImages.iphone17ProMaxBlue,
                 price: "R$ 9.249,99",
                 priceInstallment: "Ou em 12x R$ 926,93",
             },
             {
                 name: "Orange",
                 color: "#EA580C",
-                image: iphone17ProMaxOrange,
+                image: productImages.iphone17ProMaxOrange,
                 price: "R$ 9.149,99",
                 priceInstallment: "Ou em 12x R$ 916,91",
             }
@@ -156,14 +73,14 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone17ProMaxBlue,
+                image: productImages.iphone17ProMaxBlue,
                 price: "R$ 8.649,99",
                 priceInstallment: "Ou em 12x R$ 866,80",
             },
             {
                 name: "Orange",
                 color: "#EA580C",
-                image: iphone17ProMaxOrange,
+                image: productImages.iphone17ProMaxOrange,
                 price: "R$ 8.599,99",
                 priceInstallment: "Ou em 12x R$ 861,79",
             }
@@ -179,21 +96,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17ProMaxSilver,
+                image: productImages.iphone17ProMaxSilver,
                 price: "R$ 8.649,99",
                 priceInstallment: "Ou em 12x R$ 866,80",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone17ProMaxBlue,
+                image: productImages.iphone17ProMaxBlue,
                 price: "R$ 8.449,99",
                 priceInstallment: "Ou em 12x R$ 846,76",
             },
             {
                 name: "Orange",
                 color: "#EA580C",
-                image: iphone17ProMaxOrange,
+                image: productImages.iphone17ProMaxOrange,
                 price: "R$ 8.449,99",
                 priceInstallment: "Ou em 12x R$ 846,76",
             }
@@ -209,21 +126,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17ProSilver,
+                image: productImages.iphone17ProSilver,
                 price: "R$ 7.799,99",
                 priceInstallment: "Ou em 12x R$ 781,63",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone17ProBlue,
+                image: productImages.iphone17ProBlue,
                 price: "R$ 7.749,99",
                 priceInstallment: "Ou em 12x R$ 781,63",
             },
             {
                 name: "Orange",
                 color: "#EA580C",
-                image: iphone17ProOrange,
+                image: productImages.iphone17ProOrange,
                 price: "R$ 7.649,99",
                 priceInstallment: "Ou em 12x R$ 766,60",
             }
@@ -239,28 +156,28 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone17Black,
+                image: productImages.iphone17Black,
                 price: "R$ 5.249,99",
                 priceInstallment: "Ou em 12x R$ 526,10",
             },
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone17Purple,
+                image: productImages.iphone17Purple,
                 price: "R$ 5.249,99",
                 priceInstallment: "Ou em 12x R$ 526,10",
             },
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17Silver,
+                image: productImages.iphone17Silver,
                 price: "R$ 5.249,99",
                 priceInstallment: "Ou em 12x R$ 526,10",
             },
             {
                 name: "Blue",
                 color: "#93C5FD",
-                image: iphone17Blue,
+                image: productImages.iphone17Blue,
                 price: "R$ 5.249,99",
                 priceInstallment: "Ou em 12x R$ 526,10",
             },
@@ -276,7 +193,7 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone17AirBlack,
+                image: productImages.iphone17AirBlack,
                 price: "R$ 5.849,99",
                 priceInstallment: "Ou em 12x R$ 586,22",
             },
@@ -292,21 +209,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17Silver,
+                image: productImages.iphone17eSilver,
                 price: "R$ 3.849,99",
                 priceInstallment: "Ou em 12x R$ 385,80",
             },
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: iphone17ePink,
+                image: productImages.iphone17ePink,
                 price: "R$ 3.849,99",
                 priceInstallment: "Ou em 12x R$ 385,80",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone17eBlack,
+                image: productImages.iphone17eBlack,
                 price: "R$ 3.849,99",
                 priceInstallment: "Ou em 12x R$ 385,80",
             },
@@ -322,7 +239,7 @@ export const products = [
             {
                 name: "Desert",
                 color: "#D6B08C",
-                image: iphone16ProDesert,
+                image: productImages.iphone16ProDesert,
                 price: "R$ 5.699,99",
                 priceInstallment: "Ou em 12x R$ 571,19",
             },
@@ -338,7 +255,7 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone17Black,
+                image: productImages.iphone17Black,
                 price: "R$ 4.999,99",
                 priceInstallment: "Ou em 12x R$ 501,04",
             },
@@ -355,28 +272,28 @@ export const products = [
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: iphone16Pink,
+                image:  productImages.iphone16Pink,
                 price: "R$ 4.649,99",
                 priceInstallment: "Ou em 12x R$ 465,97",
             },
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone17Silver,
+                image: productImages.iphone17Silver,
                 price: "R$ 4.549,99",
                 priceInstallment: "Ou em 12x R$ 455,95",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone17Black,
+                image: productImages.iphone17Black,
                 price: "R$ 4.549,99",
                 priceInstallment: "Ou em 12x R$ 455,95",
             },
             {
                 name: "Blue",
                 color: "#93C5FD",
-                image: iphone17Blue,
+                image: productImages.iphone17Blue,
                 price: "R$ 4.549,99",
                 priceInstallment: "Ou em 12x R$ 455,95",
             },
@@ -392,7 +309,7 @@ export const products = [
             {
                 name: "Blue",
                 color: "#93C5FD",
-                image: iphone15Blue,
+                image: productImages.iphone15Blue,
                 price: "R$ 4.099,99",
                 priceInstallment: "Ou em 12x R$ 410,86",
             },
@@ -408,21 +325,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: ipad11Silver,
+                image: productImages.ipad11Silver,
                 price: "R$ 2.649,99",
                 priceInstallment: "Ou em 12x R$ 252,09",
             },
             {
                 name: "Blue",
                 color: "#93C5FD",
-                image: ipad11Blue,
+                image: productImages.ipad11Blue,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 247,34",
             },
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: ipad11Pink,
+                image: productImages.ipad11Pink,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 247,34",
             },
@@ -438,7 +355,7 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: macbookM4Blue,
+                image: productImages.macbookM4Blue,
                 price: "R$ 7.049,99",
                 priceInstallment: "Ou em 12x R$ 670,66",
             },
@@ -454,7 +371,7 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: AirpodsPro3,
+                image: productImages.AirpodsPro3,
                 price: "R$ 1.999,99",
                 priceInstallment: "Ou em 12x R$ 190,26",
             },
@@ -470,7 +387,7 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: pincelPro,
+                image: productImages.pincelPro,
                 price: "R$ 1.249,99",
                 priceInstallment: "Ou em 12x R$ 118,91",
             },
@@ -486,7 +403,7 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: airTagPack4,
+                image: productImages.airTagPack4,
                 price: "R$ 849,99",
                 priceInstallment: "Ou em 12x R$ 80,86",
             },
@@ -504,21 +421,21 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 5.599,99",
                 priceInstallment: "Ou em 12x R$ 561,17",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 5.599,99",
                 priceInstallment: "Ou em 12x R$ 561,17",
             },
             {
                 name: "Desert",
                 color: "#D6B08C",
-                image: iphone16ProDesert,
+                image: productImages.iphone16ProDesert,
                 price: "R$ 5.599,99",
                 priceInstallment: "Ou em 12x R$ 561,17",
             },
@@ -535,21 +452,21 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 4.899,99.",
                 priceInstallment: "Ou em 12x R$ 491,02",
             },
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 4.899,99",
                 priceInstallment: "Ou em 12x R$ 491,02",
             },
             {
                 name: "Desert",
                 color: "#D6B08C",
-                image: iphone16ProDesert,
+                image: productImages.iphone16ProDesert,
                 price: "R$ 4.899,99",
                 priceInstallment: "Ou em 12x R$ 491,02",
             },
@@ -565,21 +482,21 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone17Blue,
+                image: productImages.iphone17Blue,
                 price: "R$ 4.199,99.",
                 priceInstallment: "Ou em 12x R$ 420,88",
             },
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: iphone16Pink,
+                image: productImages.iphone16Pink,
                 price: "R$ 4.199,99.",
                 priceInstallment: "Ou em 12x R$ 420,88",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone17Black,
+                image: productImages.iphone17Black,
                 price: "R$ 4.199,99.",
                 priceInstallment: "Ou em 12x R$ 420,88",
             },
@@ -597,7 +514,7 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 4.649,99.",
                 priceInstallment: "Ou em 12x R$ 465,97",
             },
@@ -613,21 +530,21 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone16ProMaxBlue,
+                image: productImages.iphone16ProMaxBlue,
                 price: "R$ 4.499,99.",
                 priceInstallment: "Ou em 12x R$ 450,94",
             },
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 4.499,99.",
                 priceInstallment: "Ou em 12x R$ 450,94",
             },    
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 4.499,99.",
                 priceInstallment: "Ou em 12x R$ 450,94",
             },
@@ -643,7 +560,7 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 4.099,99",
                 priceInstallment: "Ou em 12x R$ 410,96",
             },                
@@ -659,14 +576,14 @@ export const products = [
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 3.949,99",
                 priceInstallment: "Ou em 12x R$ 395,82",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 3.949,99",
                 priceInstallment: "Ou em 12x R$ 395,82",
             },
@@ -683,14 +600,14 @@ export const products = [
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: iphone15Pink,
+                image: productImages.iphone15Pink,
                 price: "R$ 3.399,99",
                 priceInstallment: "Ou em 12x R$ 340,71",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone15Black,
+                image: productImages.iphone15Black,
                 price: "R$ 3.399,99",
                 priceInstallment: "Ou em 12x R$ 340,71",
             },       
@@ -706,7 +623,7 @@ export const products = [
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: iphone15Pink,
+                image: productImages.iphone15Pink,
                 price: "R$ 3.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },      
@@ -722,21 +639,21 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone15Blue,
+                image: productImages.iphone15Blue,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },
             {
                 name: "Pink",
                 color: "#F9A8D4",
-                image: iphone15Pink,
+                image: productImages.iphone15Pink,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone15Black,
+                image: productImages.iphone15Black,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },       
@@ -753,21 +670,21 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 3.999,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
             },   
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 3.999,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
             },
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone16ProMaxPurple,
+                image: productImages.iphone16ProMaxPurple,
                 price: "R$ 3.999,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
             },      
@@ -783,21 +700,21 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 3.799,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
             },   
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 3.799,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
             },
             {
                 name: "Desert",
                 color: "#D6B08C",
-                image: iphone16ProMaxGold,
+                image: productImages.iphone16ProMaxGold,
                 price: "R$ 3.799,99",
                 priceInstallment: "Ou em 12x R$ 400,83",
             },      
@@ -813,28 +730,28 @@ export const products = [
             {
                 name: "Desert",
                 color: "#D6B08C",
-                image: iphone16ProMaxGold,
+                image: productImages.iphone16ProMaxGold,
                 price: "R$ 3.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 3.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },   
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone16ProMaxPurple,
+                image: productImages.iphone16ProMaxPurple,
                 price: "R$ 5.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },    
             {
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 3.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },
@@ -850,27 +767,27 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone16ProMaxBlack,
+                image: productImages.iphone16ProMaxBlack,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },   
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone16ProMaxPurple,
+                image: productImages.iphone16ProMaxPurple,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },  
             {
                 name: "Desert",
                 color: "#D6B08C",
-                image: iphone16ProMaxGold,
+                image: productImages.iphone16ProMaxGold,
                 price: "R$ 3.299,99",
                 priceInstallment: "Ou em 12x R$ 330,69",
             },
             {   name: "Silver",
                 color: "#C0C0C0",
-                image: iphone16ProMaxSilver,
+                image: productImages.iphone16ProMaxSilver,
                 price: "R$ 3.299,99",
                 priceInstallment: "Ou em 12x R$ 330,69",
             },   
@@ -886,27 +803,27 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone15Black,
+                image: productImages.iphone15Black,
                 price: "R$ 2.799,99",
                 priceInstallment: "Ou em 12x R$ 280,58",
             },   
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone14PlusPurple,
+                image: productImages.iphone14PlusPurple,
                 price: "R$ 2.799,99",
                 priceInstallment: "Ou em 12x R$ 280,58",
             },  
             {
                 name: "Blue",
                 color: "#D6B08C",
-                image: iphone15Blue,
+                image: productImages.iphone15Blue,
                 price: "R$ 2.799,99",
                 priceInstallment: "Ou em 12x R$ 280,58",
             },
             {   name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13Silver,
+                image: productImages.iphone13Silver,
                 price: "R$ 2.799,99",
                 priceInstallment: "Ou em 12x R$ 280,58",
             },     
@@ -922,20 +839,20 @@ export const products = [
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone14PlusPurple,
+                image: productImages.iphone14PlusPurple,
                 price: "R$ 2.949,99",
                 priceInstallment: "Ou em 12x R$ 295,62",
             },  
             {
                 name: "Blue",
                 color: "#D6B08C",
-                image: iphone15Blue,
+                image: productImages.iphone15Blue,
                 price: "R$ 2.949,99",
                 priceInstallment: "Ou em 12x R$ 295,62",
             },
             {   name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13Silver,
+                image: productImages.iphone13Silver,
                 price: "R$ 2.949,99",
                 priceInstallment: "Ou em 12x R$ 295,62",
             },
@@ -952,27 +869,27 @@ export const products = [
             {
                 name: "Black",
                 color: "#18181B",
-                image: iphone15Black,
+                image: productImages.iphone15Black,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,54",
             },  
             {
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone14PlusPurple,
+                image: productImages.iphone14PlusPurple,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,54",
             },  
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone15Blue,
+                image: productImages.iphone15Blue,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,54",
             },
             {   name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13Silver,
+                image: productImages.iphone13Silver,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,54",
             },
@@ -989,13 +906,13 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone13ProMaxBlue,
+                image: productImages.iphone13ProMaxBlue,
                 price: "R$ 3.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },
             {   name: "Gold",
                 color: "#D6B08C",
-                image: iphone13ProMaxOuro,
+                image: productImages.iphone13ProMaxOuro,
                 price: "R$ 3.599,99",
                 priceInstallment: "Ou em 12x R$ 360,75",
             },
@@ -1010,26 +927,26 @@ export const products = [
         colors: [     
             {   name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13ProMaxSilver,
+                image: productImages.iphone13ProMaxSilver,
                 price: "R$ 3.299,99",
                 priceInstallment: "Ou em 12x R$ 330,69",
             },
             {   name: "Gold",
                 color: "#D6B08C",
-                image: iphone13ProMaxOuro,
+                image: productImages.iphone13ProMaxOuro,
                 price: "R$ 3.299,99",
                 priceInstallment: "Ou em 12x R$ 330,69",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone13ProMaxBlue,
+                image: productImages.iphone13ProMaxBlue,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },
             {   name: "Black",
                 color: "#18181B",
-                image: iphone13ProMaxBlack,
+                image: productImages.iphone13ProMaxBlack,
                 price: "R$ 3.249,99",
                 priceInstallment: "Ou em 12x R$ 325,68",
             },
@@ -1044,20 +961,20 @@ export const products = [
         colors: [     
             {   name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13ProMaxSilver,
+                image: productImages.iphone13ProMaxSilver,
                 price: "R$ 3.049,99",
                 priceInstallment: "Ou em 12x R$ 305,64",
             },          
             {   name: "Gold",
                 color: "#D6B08C",
-                image: iphone13ProMaxOuro,
+                image: productImages.iphone13ProMaxOuro,
                 price: "R$ 3.049,99",
                 priceInstallment: "Ou em 12x R$ 305,64",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone13ProMaxBlue,
+                image: productImages.iphone13ProMaxBlue,
                 price: "R$ 3.049,99",
                 priceInstallment: "Ou em 12x R$ 305,64",
             },
@@ -1073,28 +990,28 @@ export const products = [
             {   
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13ProMaxSilver,
+                image: productImages.iphone13ProMaxSilver,
                 price: "R$ 2.899,99",
                 priceInstallment: "Ou em 12x R$ 290,61",
             },
             {   
                 name: "Gold",
                 color: "#D6B08C",
-                image: iphone13ProMaxOuro,
+                image: productImages.iphone13ProMaxOuro,
                 price: "R$ 2.899,99",
                 priceInstallment: "Ou em 12x R$ 290,61",
             },
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone13ProMaxBlue,
+                image: productImages.iphone13ProMaxBlue,
                 price: "R$ 2.899,99",
                 priceInstallment: "Ou em 12x R$ 290,61",
             },   
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone13ProMaxBlack,
+                image: productImages.iphone13ProMaxBlack,
                 price: "R$ 2.899,99",
                 priceInstallment: "Ou em 12x R$ 290,61",
             },
@@ -1110,21 +1027,21 @@ export const products = [
             {   
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13Silver,
+                image: productImages.iphone13Silver,
                 price: "R$ 2.749,99",
                 priceInstallment: "Ou em 12x R$ 275,57",
             },
             {   
                 name: "Rosa",
                 color: "#F9A8D4",
-                image: iphone15Pink,
+                image: productImages.iphone15Pink,
                 price: "R$ 2.749,99",
                 priceInstallment: "Ou em 12x R$ 275,57",
             },
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone13Black,
+                image: productImages.iphone13Black,
                 price: "R$ 2.749,99",
                 priceInstallment: "Ou em 12x R$ 275,57",
             },
@@ -1140,21 +1057,21 @@ export const products = [
             {   
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone13Silver,
+                image: productImages.iphone13Silver,
                 price: "R$ 2.349,99",
                 priceInstallment: "Ou em 12x R$ 235,49",
             },
             {   
                 name: "Rosa",
                 color: "#F9A8D4",
-                image: iphone15Pink,
+                image: productImages.iphone15Pink,
                 price: "R$ 2.349,99",
                 priceInstallment: "Ou em 12x R$ 235,49",
             },
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone13Black,
+                image: productImages.iphone13Black,
                 price: "R$ 2.349,99",
                 priceInstallment: "Ou em 12x R$ 235,49",
             },
@@ -1170,14 +1087,14 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone12ProMaxBlue,
+                image: productImages.iphone12ProMaxBlue,
                 price: "R$ 2.849,99",
                 priceInstallment: "Ou em 12x R$ 285,60",
             }, 
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone12ProMaxBlack,
+                image: productImages.iphone12ProMaxBlack,
                 price: "R$ 2.849,99",
                 priceInstallment: "Ou em 12x R$ 285,60",
             },
@@ -1193,21 +1110,21 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone12ProMaxBlue,
+                image: productImages.iphone12ProMaxBlue,
                 price: "R$ 2.699,99",
                 priceInstallment: "Ou em 12x R$ 270,56",
             }, 
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone12ProMaxBlack,
+                image: productImages.iphone12ProMaxBlack,
                 price: "R$ 2.699,99",
                 priceInstallment: "Ou em 12x R$ 270,56",
             },
             {   
                 name: "Gold",
                 color: "#D6B08C",
-                image: iphone12ProMaxGold,
+                image: productImages.iphone12ProMaxGold,
                 price: "R$ 2.699,99",
                 priceInstallment: "Ou em 12x R$ 270,56",
             },
@@ -1224,7 +1141,7 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone12ProMaxBlue,
+                image: productImages.iphone12ProMaxBlue,
                 price: "R$ 2.599,99",
                 priceInstallment: "Ou em 12x R$ 260,",
             }, 
@@ -1241,14 +1158,14 @@ export const products = [
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone12ProMaxBlack,
+                image: productImages.iphone12ProMaxBlack,
                 price: "R$ 2.449,99",
                 priceInstallment: "Ou em 12x R$ 245,51",
             },
             {   
                 name: "Gold",
                 color: "#D6B08C",
-                image: iphone12ProMaxGold,
+                image: productImages.iphone12ProMaxGold,
                 price: "R$ 2.449,99",
                 priceInstallment: "Ou em 12x R$ 245,51",
             },
@@ -1265,21 +1182,21 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone12ProMaxBlue,
+                image: productImages.iphone12ProMaxBlue,
                 price: "R$ 2.349,99",
                 priceInstallment: "Ou em 12x R$ 235,49",
             }, 
             {   
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone12ProMaxSilver,
+                image: productImages.iphone12ProMaxSilver,
                 price: "R$ 2.349,99",
                 priceInstallment: "Ou em 12x R$ 235,49",
             },
             {   
                 name: "Gold",
                 color: "#D6B08C",
-                image: iphone12ProMaxGold,
+                image: productImages.iphone12ProMaxGold,
                 price: "R$ 2.349,99",
                 priceInstallment: "Ou em 12x R$ 235,49",
             },         
@@ -1295,28 +1212,28 @@ export const products = [
             {
                 name: "Blue",
                 color: "#1E3A8A",
-                image: iphone12Blue,
+                image: productImages.iphone12Blue,
                 price: "R$ 1.999,99",
                 priceInstallment: "Ou em 12x R$ 200,42",
             }, 
             {   
                 name: "Silver",
                 color: "#C0C0C0",
-                image: iphone12Silver,
+                image: productImages.iphone12Silver,
                 price: "R$ 1.999,99",
                 priceInstallment: "Ou em 12x R$ 200,42",
             },
             {   
                 name: "Black",
                 color: "#18181B",
-                image: iphone12Black,
+                image: productImages.iphone12Black,
                 price: "R$ 1.999,99",
                 priceInstallment: "Ou em 12x R$ 200,42",
             },
             {   
                 name: "Purple",
                 color: "#C084FC",
-                image: iphone12Purple,
+                image: productImages.iphone12Purple,
                 price: "R$ 1.999,99",
                 priceInstallment: "Ou em 12x R$ 200,42",
             },
