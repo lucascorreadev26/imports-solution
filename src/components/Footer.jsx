@@ -34,7 +34,7 @@ const Footer = () => {
 
                 <p className="text-xs font-bold text-gray-400 pt-2">
                     <a
-                        href="https://www.instagram.com/importsolution"
+                        href="https://www.instagram.com/importssolution"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 hover:text-white transition-colors duration-300"
