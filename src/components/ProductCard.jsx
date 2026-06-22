@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
         <div className="flex flex-col items-center">
           
          <div className="flex justify-center items-center w-80 h-80">
-           <img src={selectedColor.image} alt={product.name} className="w-full h-auto"/>
+           <img src={selectedColor.image} alt={product.name} className="h-auto"/>
          </div>
           
           <div className="w-75 flex flex-col pl-3 pr-3">
@@ -47,7 +47,7 @@ const ProductCard = ({ product }) => {
         </div>
 
         <Link
-          className="flex flex-row justify-center gap-4 font-bold bg-green-700 w-70 py-2 rounded-lg mt-8"
+          className="flex flex-row justify-center gap-4 font-bold bg-green-700 w-70 py-2 rounded-lg mt-8  hover:bg-black hover:text-white hover:shadow-[0_0_25px_rgba(34,197,94,0.6)] transition-all duration-300"
           to={linkWhatsapp}
           target="_blank"
         >

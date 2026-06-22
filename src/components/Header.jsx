@@ -28,12 +28,12 @@ const Header = () => {
             </div>
 
             <ul className="hidden md:flex flex-1 justify-center items-center gap-10 text-white ml-16 md:ml-0">
-                <li className="whitespace-nowrap"><Link to="/">Início</Link></li>
-                <li className="whitespace-nowrap"><Link to="/CatalogoIphones">Produtos</Link></li>
-                <li className="whitespace-nowrap"><Link to="/AboutSolution">Sobre Nós</Link></li>
-                <li className="whitespace-nowrap"><Link to="/AboutSolution">Nossa Loja</Link></li>
-                <li className="whitespace-nowrap"><Link to="/">Dúvidas</Link></li>
-                <li className="whitespace-nowrap"><Link to="/">Contato</Link></li>
+                <li className="whitespace-nowrap hover:text-green-500"><Link to="/">Início</Link></li>
+                <li className="whitespace-nowrap hover:text-green-500"><Link to="/CatalogoIphones">Produtos</Link></li>
+                <li className="whitespace-nowrap hover:text-green-500"><Link to="/AboutSolution">Sobre Nós</Link></li>
+                <li className="whitespace-nowrap hover:text-green-500"><Link to="/AboutSolution">Nossa Loja</Link></li>
+                <li className="whitespace-nowrap hover:text-green-500"><Link to="/">Dúvidas</Link></li>
+                <li className="whitespace-nowrap hover:text-green-500"><Link to="/">Contato</Link></li>
             </ul>
 
             <div className="hidden md:flex flex-1 justify-end">
