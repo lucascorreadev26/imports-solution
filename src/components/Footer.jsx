@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
-
+import { MapPin, Phone, Mail, Clock, } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -31,7 +31,18 @@ const Footer = () => {
                     <Mail className="w-4 h-4 text-green-700"/>
                     importsolution@gmail.com
                 </p>
-                
+
+                <p className="text-xs font-bold text-gray-400 pt-2">
+                    <a
+                        href="https://www.instagram.com/importsolution"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:text-white transition-colors duration-300"
+                    >
+                        <FaInstagram className="w-4 h-4 text-green-700" />
+                        @importssolution
+                    </a>
+                </p>
             </div>
 
             <div>

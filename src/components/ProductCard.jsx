@@ -17,7 +17,12 @@ const ProductCard = ({ product }) => {
         <div className="flex flex-col items-center">
           
          <div className="flex justify-center items-center w-80 h-80">
-           <img src={selectedColor.image} alt={product.name} className="h-auto"/>
+          <img
+            key={selectedColor.image}
+            src={selectedColor.image}
+            alt={product.name}
+            className="w-full object-contain animate-fade-zoom"
+          />
          </div>
           
           <div className="w-75 flex flex-col pl-3 pr-3">
@@ -27,17 +32,20 @@ const ProductCard = ({ product }) => {
             {/* CORES */}
             <div className="flex items-center gap-2 mt-2">
               {product.colors.map((color, index) => (
-                <button
-                  key={index}
-                  onClick={() => setSelectedColor(color)}
-                  className={`w-4 h-4 rounded-full border ${
-                    selectedColor.name === color.name
-                      ? "border-white scale-110"
-                      : "border-zinc-600"
-                  }`}
-                  style={{ backgroundColor: color.color }}
-                  title={color.name}
-                />
+              <button
+                key={index}
+                onClick={() => setSelectedColor(color)}
+                className={`w-4 h-4 rounded-full border transition-all duration-300 ease-in-out
+                ${
+                  selectedColor.name === color.name
+                  ? "border-white scale-110"
+                  : "border-zinc-600"
+                }
+                `}
+                style={{ backgroundColor: color.color }}
+                title={color.name}
+              />
+
               ))}
             </div>
             <p className="text-gray-400 text-xs mt-2">Dinheiro ou Pix</p>
