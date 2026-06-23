@@ -17,12 +17,13 @@ return (
         Catálogo Completo <ArrowRight className="w-6 h-6" />
         </Link>
 
-        <div className="mt-8 lg:flex flex-row gap-12">
-            {products.slice(0, 3).map((product) => (
+        <div className="mt-8 lg:flex flex-row gap-12 ">
+        {products
+            .filter((product) => [4, 5, 6, ].includes(product.id))
+            .map((product) => (
                 <ProductCard key={product.id} product={product} />
-            ))}
+        ))}
         </div>
-
     </section>
   )
 };
