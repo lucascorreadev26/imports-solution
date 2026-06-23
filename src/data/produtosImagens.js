@@ -94,6 +94,19 @@ import AirpodsPro3 from '../assets/airpodsPro3.webp'
 import pincelPro from '../assets/applePincel.webp'
 import airTagPack4 from '../assets/airTagPack4.webp'
 
+
+// Imports Photo AppleWatch
+import AppleWatchUltra349mmBlack from '../assets/AppleWatchUltra349mmBlack.webp'
+import AppleWatchS1046mmBlack from '../assets/AppleWatchS1046mmBlack.webp'
+import AppleWatchS1142mmBlack from '../assets/AppleWatchS1142mmBlack.webp'
+
+import AppleWatchSE244mmStarlight from '../assets/AppleWatchSE244mmStarlight.webp'
+import AppleWatchSE340mmStarlight from '../assets/AppleWatchSE340mmStarlight.webp'
+import AppleWatchSE344mmStarlight from '../assets/AppleWatchSE344mmStarlight.webp'
+
+import AppleWatchSE244mmMindnight from '../assets/AppleWatchSE244mmMindnight.webp'
+import AppleWatchSE340mmMidnight from '../assets/AppleWatchSE340mmMidnight.webp'
+
 export const productImages = {
     iphone17ProMaxSilver,
     iphone17ProMaxBlue,
@@ -157,4 +170,15 @@ export const productImages = {
     AirpodsPro3,
     pincelPro,
     airTagPack4,
+
+    AppleWatchUltra349mmBlack, 
+    AppleWatchS1046mmBlack,
+    AppleWatchS1142mmBlack,
+
+    AppleWatchSE244mmStarlight,
+    AppleWatchSE340mmStarlight,
+    AppleWatchSE344mmStarlight,
+
+    AppleWatchSE244mmMindnight,
+    AppleWatchSE340mmMidnight,
 };

@@ -16,13 +16,13 @@ const ProductCard = ({ product }) => {
       <div className="flex flex-col items-center w-80 rounded-3xl pb-4 border border-zinc-700/50 bg-zinc-900/60 backdrop-blur-md shadow-[0_10px_40px_rgba(0,0,0,0.45)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(34,197,94,0.25)]">
         <div className="flex flex-col items-center">
           
-         <div className="flex justify-center items-center w-80 h-80">
-          <img
-            key={selectedColor.image}
-            src={selectedColor.image}
-            alt={product.name}
-            className="w-full object-contain animate-fade-zoom"
-          />
+          <div className="flex justify-center items-center w-80 h-80">
+            <img
+              key={selectedColor.image}
+              src={selectedColor.image}
+              alt={product.name}
+              className="object-contain animate-fade-zoom"
+            />
          </div>
           
           <div className="w-75 flex flex-col pl-3 pr-3">

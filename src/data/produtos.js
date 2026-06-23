@@ -1239,30 +1239,117 @@ export const products = [
             },
         ],
     },
+    
+    {
+        id: 47,
+        name: "Apple Watch Ultra 3 49mm",
+        description: "Garantia Apple",
+
+        colors: [
+            {
+                name: "Black",
+                color: "#18181B",
+                image: productImages.AppleWatchUltra349mmBlack,
+                price: "R$ 4.949,99",
+                priceInstallment: "Ou em 12x R$ 461,96",
+            },
+        ],
+    },
+
+    {
+        id: 48,
+        name: "Apple Watch S11 42mm",
+        description: "Garantia Apple",
+
+        colors: [
+            {
+                name: "Black",
+                color: "#18181B",
+                image: productImages.AppleWatchS1142mmBlack,
+                price: "R$ 2.649,99",
+                priceInstallment: "Ou em 12x R$ 247,31",
+            },
+        ],
+    },
+
+    {
+        id: 49,
+        name: "Apple Watch S10 46mm",
+        description: "Garantia Apple",
+
+        colors: [
+            {
+                name: "Black",
+                color: "#18181B",
+                image: productImages.AppleWatchS1046mmBlack,
+                price: "R$ 2.949,99",
+                priceInstallment: "Ou em 12x R$ 275,31",
+            },
+        ],
+    },
+
+    {
+        id: 50,
+        name: "Apple Watch SE 3 44mm",
+        description: "Garantia Apple",
+
+        colors: [
+            {
+                name: "Starlight",
+                color: "#F5F5DC",
+                image: productImages.AppleWatchSE344mmStarlight,
+                price: "R$ 2.249,99",
+                priceInstallment: "Ou em 12x R$ 209,98",
+            },
+        ],
+    },
+
+    {
+        id: 51,
+        name: "Apple Watch SE 3 40mm",
+        description: "Garantia Apple",
+
+        colors: [
+            {
+                name: "Midnight",
+                color: "#18181B",
+                image: productImages.AppleWatchSE340mmMidnight,
+                price: "R$ 2.149,99",
+                priceInstallment: "Ou em 12x R$ 200,65",
+            },
+            {
+                name: "Starlight",
+                color: "#F5F5DC",
+                image: productImages.AppleWatchSE340mmStarlight,
+                price: "R$ 2.149,99",
+                priceInstallment: "Ou em 12x R$ 215,39",
+            },
+        ],
+    },
 
 
+    {
+        id: 52,
+        name: "Apple Watch SE 2 44mm",
+        description: "Garantia Apple",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        colors: [
+            {
+                name: "Midnight",
+                color: "#18181B",
+                image: productImages.AppleWatchSE244mmMindnight,
+                price: "R$ 1.899,99",
+                priceInstallment: "Ou em 12x R$ 177,32",
+            },
+            {
+                name: "Starlight",
+                color: "#F5F5DC",
+                image: productImages.AppleWatchSE244mmStarlight,
+                price: "R$ 1.899,99",
+                priceInstallment: "Ou em 12x R$ 177,32",
+            },
+        ],
+},
 
 
 
