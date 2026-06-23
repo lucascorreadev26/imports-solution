@@ -62,6 +62,7 @@ const ProductList = () => {
           <option value="iphone 13 a 11 pro max">
             iPhones 13 a 11 Pro Max
           </option>
+          <option value="apple watch">Apple Watch</option>
           <option value="ipad">iPads</option>
           <option value="macbook">Macbooks</option>
           <option value="acessorios">Acessorios</option>
