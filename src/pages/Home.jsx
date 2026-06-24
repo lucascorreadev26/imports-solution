@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import About from '../components/About'
 import ProductFeatured from '../components/ProductFeatured';
 
+
 const Home = () => {
   return (
     <section>

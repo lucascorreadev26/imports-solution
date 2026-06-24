@@ -49,6 +49,7 @@ const Hero = () => {
         <div className='h-80 hidden lg:block'>
             <img src={iphonesApresentacao} alt="Iphones de Apresentação" />
         </div>
+
     </section>
   )
 }

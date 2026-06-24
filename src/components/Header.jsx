@@ -20,7 +20,7 @@ const Header = () => {
                     <img
                         src={`${import.meta.env.BASE_URL}logo.webp`}
                         alt="Logo Loja Imports Solution"
-                        className="h-30 w-30 mt-4"
+                        className="h-30 w-30 mt-4 transition-transform duration-700 hover:[transform:rotateY(180deg)]"
                     />
 
                     <p className="title-logo hidden lg:block whitespace-nowrap">Imports Solution</p>

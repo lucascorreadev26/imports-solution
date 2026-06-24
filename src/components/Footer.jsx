@@ -58,7 +58,7 @@ const Footer = () => {
 
         <section className="flex flex-col justify-center items-center pt-8 pb-2"  > 
                 <p className="text-sm font-bold text-gray-400 pt-2" >&copy; Imports Solution. Todos os direitos reservados.</p>
-                <p className="text-sm font-bold text-gray-400 pt-2">Desenvolvido por <Link className=" hover:text-green-700 transition" to="https://github.com/lucascorreadev26" target="_blank">Lucas Corrêa</Link></p>
+                <p className="text-sm font-bold text-gray-400 pt-2">Desenvolvido por <Link className=" hover:text-green-700 transition" to="https://www.linkedin.com/in/lucascorreadev/" target="_blank">Lucas Corrêa</Link></p>
         </section>
 
 
