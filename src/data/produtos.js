@@ -507,7 +507,7 @@ export const products = [
 
     {
         id: 21,
-        name: "Iphone 15 Pro Max 521GB",
+        name: "Iphone 15 Pro Max 512GB",
         description: "Semi-novo | Garantia: 6 meses",
 
         colors: [            
